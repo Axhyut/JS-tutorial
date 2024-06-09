@@ -36,3 +36,26 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber);
 console.log(stringNumber);
+
+//OPERATIONS
+let value = 3
+let negValue = -value 
+console.log(negValue);  // Makes the value of the variable "value", negative
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3); //It raises the 3 to the power of 2
+console.log(2/3);
+console.log(2%3); //It gives the remainder
+
+let str1 = "Hello"
+let str2 = " Achyut" //here space is given just so that hello and achyut has a space in-between
+
+let str3 = str1 + str2
+console.log(str3);
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1 + 2");
+console.log("1" + 2 + 2); //output: 122
+console.log(1 + 2 + "2"); //output: 32
